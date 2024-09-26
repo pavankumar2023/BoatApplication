@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Shop Boat</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+<!-- Navigation Bar -->
+ <nav class="navbar">
+  <div class="Logo">
+    <a href=".index.html" class="logo-link">
+      <h1>Tech-Shop</h1>
+    </a>
+  </div>
+
+<div class="nav-links">
+   <!-- Search Icon -->
+   <a href="#" class="search-icon" onclick="toggleSearch()"><i class="fas fa-search"></i></a>
+  
+   <!-- Hidden Search Bar -->
+   <input type="text" placeholder="Search..." class="search-bar" id="search-bar">  
+   
+   <a href="cart.html" class="cart">
+    <i class="fas fa-shopping-cart"></i>
+    </a>
+
+    
+
+ <!-- Profile Dropdown (opens the modal forms) -->
+ <div class="profile-dropdown">
+  <a href="#loginModal"><i class="fas fa-user"></i></a>
+</div>
+</div>
+</nav>
+
+
+<!-- Login Modal -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h1>Login</h1>
+    <p>Don't have an account? <a href="#signupModal">Sign up</a></p>
+
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+
+      <!-- Line with 'Login with' text -->
+      <div class="line-with-text">
+        <span>or login with</span>
+      </div>
+    </form>
+      <!-- Social buttons -->
+<div class="social-buttons">
+  <button class="social-button facebook">Facebook</button>
+  <button class="social-button google">Google</button>
+  <button class="social-button twitter">Twitter</button>
+</div>
+  </div>
+</div>
+
+<!-- Sign-Up Modal -->
+<div id="signupModal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h1>Sign Up</h1>
+    <p>Already have an account? <a href="#loginModal">Login</a></p>
+
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="text" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit">Sign Up</button>
+
+      <!-- Line with 'Signup with' text -->
+      <div class="line-with-text">
+        <span>or login with</span>
+      </div>
+    </form>
+      <!-- Social buttons -->
+<div class="social-buttons">
+  <button class="social-button facebook">Facebook</button>
+  <button class="social-button google">Google</button>
+  <button class="social-button twitter">Twitter</button>
+</div>
+  </div>
+</div>
+
+
+
+<!-- Banner Section 01 -->
+<section class="Section01">
+<div class="Section01-text">
+  <h4>boAt Airdopes 131</h4>
+  <p>Featherweight For </br> Comfort All-Day.</p></br>
+  <div class="prices-txt">
+  <span class="offer-price">$ 1,099</span>
+  <span class="original-price">$ 2,990</span></br>
+  <button type="button" class="my-button">Shop Now</button>
+</div>
+</div>
+<div class="Section01-text-image">
+  <img src="./Assests/boat131-1.png" alt="TechShop Banner">
+</div>
+</section>
+
+<div class="pagination1">
+  <span class="dot"></span>
+  <span class="dot active"></span>
+  <span class="dot"></span>
+</div>
+</body>
+
+<h1 id="featured-products">Featured Products</h1>
+
+<div class="container">
+  <div class="product1">
+    <h5 class="product-name1">JBL Endurance Run Sports</h5>
+    <img class="product-image1" src="./Images/products/jbl-endu-1.png" alt="JBL Endurance Run Sports">
+    <p class="product-price1">₹999 <span>₹1,599</span></p>
+  </div>
+
+  <div class="product2">
+    <h5 class="product-name2">boAt Airdopes 203</h5>
+    <img class="product-image2" src="./Images/products/boat203-1.png" alt="boAt Airdopes 203">
+    <p class="product-price2">₹1,074 <span>₹3,999</span></p>
+  </div>
+
+  <div class="product3">
+    <h5 class="product-name3">boat Rockerz 518</h5>
+    <img class="product-image3" src="./Images/products/boat518-1.png" alt="boat Rockerz 518">
+    <p class="product-price3">₹1,299 <span>₹3,990</span></p>
+  </div>
+
+  <div class="product4">
+    <h5 class="product-name4">JBL Tune 760NC</h5>
+    <img class="product-image4" src="./Images/products/jbl760nc-1.png" alt="JBL Tune 760NC">
+    <p class="product-price4">₹5,999</br>
+    <span>₹7,999</span></p>
+  </div>
+  <div class="product5">
+    <h5 class="product-name5">boAt Rockerz 255</h5>
+    <img class="product-image5" src="./Images/products/boat255r-1.png" alt="boAt Rockerz 255">
+    <p class="product-price5">₹899 <span>₹2,990</span></p>
+  </div>
+</div>
+
+<div class="pagination">
+  <span class="dot active"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<section class="New-section01">
+  <h1>Top Products</h1>
+    <a href="#" class="All">All</a>
+    <h2>Headphones</h2>
+    <h2>Earbuds</h2>
+    <h2>Earphones</h2>
+    <h2>Neckbands</h2>
+
+</section>
+ 
+<div class="product-container">
+  <div class="product-card">
+    <a href="./product.html"><img src="./Assests/jbl660nc-1.png" alt="JBL Live 660NC Headphones"></a>
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>JBL Live 660NC</h3>
+    <p>Wireless Over-Ear NC</br>Headphones</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹9,999</span>
+    <span class="old-price">₹14,999</span>
+</br>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="../Images/products/boat518-1.png" alt="boAt Rockerz 518 On-Ear Wireless Headphones">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>boAt Rockerz 518</h3>
+    <p>On-Ear Wireless Headphones</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹1,299</span>
+    <span class="old-price">₹3,990</sapn>
+    </br>
+    <button>Add to cart</button>
+  </div>
+  <div class="product-card">
+    <img src="../Images/products/boat131-1.png" alt="boAt Airdopes 131 Wireless In-Ear Earbuds">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>boAt Airdopes 131</h3>
+    <p>Wireless In-Ear Earbuds</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹1,099</span>
+    <span class="old-price">₹2,990</span>
+    </br>
+    <button>Add to cart</button>
+  </div>
+  <div class="product-card">
+    <img src="../Images/products/boat110-1.png" alt="boAt BassHeads 110 In-Ear Wired Earphones">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>boAt BassHeads 110</h3>
+    <p>In-Ear Wired Earphones</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹449</span>
+    <span class="old-price">₹999</span>
+    </br>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="../Images/products/boat410-1.png" alt="boAt Rockerz 410 Bluetooth & Wired On-Ear Headphones">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>boAt Rockerz 410</h3>
+    <p>Bluetooth & Wired On-Ear Headphones</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹1,599</span>
+    <span class="old-price">₹2,990</span>
+    </br>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="../Images/products/jbl200bt-1.png" alt="JBL Live 200BT In-Ear Wireless Neckbands">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>JBL Live 200BT</h3>
+    <p>In-Ear Wireless Neckbands</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹3,699</span>
+    <span class="old-price">₹5,299</span>
+  </br>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="../Images/products/sonyXb910n-1.png" alt="Sony WH-XB910N Wireless Over-Ear Headphones">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>Sony WH-XB910N</h3>
+    <p>Wireless Over-Ear Headphones</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹13,489</span>
+    <span class="old-price">₹19,990</span>
+    </br>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="../Images/products/jbl760nc-1.png" alt="JBL Tune 760NC Wireless Over-Ear NC Headphones">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>JBL Tune 760NC</h3>
+    <p>Wireless Over-Ear NC Headphones</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹5,999</span>
+    <span class="old-price">₹7,999</span>
+  </br>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="../Images/products/boat255r-1.png" alt="boAt Rockerz 255 In-Ear Wireless Neckbands">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>boAt Rockerz 255</h3>
+    <p>In-Ear Wireless Neckbands</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹899</span>
+    <span class="old-price">₹2,990</span>
+    </br>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="../Images/products/jbl100-1.png" alt="JBL Wave 100 In-Ear Truly Wireless Earbuds">
+    <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+    <h3>JBL Wave 100</h3>
+    <p>In-Ear Truly Wireless Earbuds</p>
+    <span class="line"></span> <!-- Custom line -->
+    <span class="price">₹2,999</span>
+    <span class="old-price">₹6,999</span>
+    </br>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="../Images/products/sony1000xm4-1.png"" alt="Sony WF-1000XM4 Wireless In-Ear NC Headphones">
+    <h3>Sony WF-1000XM4</h3>
+    <p>Wireless In-Ear NC Headphones</p>
+    <span class="line"></span> <!-- Custom line -->
+    <div class="price">₹19,990</div>
+    <div class="old-price">₹24,990</div>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="product-card">
+    <h4>Browse All</br>Products</h4>
+  </div>
+</div>
+</div>
+
+  <div class="content-section1">
+  <h1 class="advantages-title">Our Advantages</h1>
+    <div class="content">
+        <div class="item">
+          <i class="fa-solid fa-truck-fast delivericon"></i>
+          </div>
+          <div class="item1">
+            <h6>Express Delivery</h6>
+            <p>Ships in 24 Hours</p>
+            </div>
+
+        <div class="item">
+          <i class="fa-solid fa-shield-halved brandwarrantyicon"></i>
+          </div>
+          <div class="item1">
+          <h6>Brand Warranty</h6>
+            <p>100% Original products</p>
+        </div>
+
+        <div class="item">
+          <i class="fa-solid fa-tags discounticon"></i>
+         </div>
+         <div class="item1">
+          <h6>Exciting Deals</h6>
+            <p>On all prepaid orders</p>
+        </div>
+
+        <div class="item">
+          <i class="fa-solid fa-credit-card cardpaymenticon"></i>
+          </div>
+          <div class="item1">
+          <h6>Secure Payments</h6>
+            <p>SSL/Secure certificate</p>
+        </div>
+    </div>
+    </div>
+   
+    <div class="footer-section">
+      <div class="section">
+          <h1>Tech-Shop</h1>
+          <p>Subscribe to our Email alerts to receive</br> early discount offers, and new products</br> info.</p>
+          <input type="email" placeholder="Email Address*" /></br>
+          <button>Subscribe</button>
+      </div>
+      <div class="section1">
+          <h1>Help</h1>
+          <ul>
+              <li>FAQs</li>
+              <li>Track Order</li>
+              <li>Cancel Order</li>
+              <li>Return Order</li>
+              <li>Warranty Info</li>
+          </ul>
+      </div>
+      <div class="section1">
+          <h1>Policies</h1>
+          <ul>
+              <li>Return Policy</li>
+              <li>Security</li>
+              <li>Sitemap</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+          </ul>
+      </div>
+      <div class="section1">
+          <h1>Company</h1>
+          <ul>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Service Centres</li>
+              <li>Careers</li>
+              <li>Affiliates</li>
+          </ul>
+      </div>
+  </div>
+  <div class="footer">
+      <p>2024 | All Rights Reserved. Built by | PAVAN KUMAR</p>
+      <div class="social-icons">
+        <a href="#" class="fab fa-facebook-f" title="Facebook"></a>
+        <a href="#" class="fab fa-twitter" title="Twitter"></a>
+        <a href="#" class="fab fa-instagram" title="Instagram"></a>
+        <a href="#" class="fab fa-linkedin-in" title="LinkedIn"></a>
+    </div>    
+  </div>
+
+<script src="../Home/index.js"></script>
+<script src="../cart/cart.html"></script>
+</body>
+</html>
