@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+
+<body>
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="Logo">
+            <a href="./index.html" class="logo-link">
+                <h1>Tech-Shop</h1>
+            </a>
+        </div>
+
+        <div class="nav-links">
+            <!-- Search Icon -->
+            <a href="#" class="search-icon" onclick="toggleSearch()"><i class="fas fa-search"></i></a>
+
+            <!-- Hidden Search Bar -->
+            <input type="text" placeholder="Search..." class="search-bar" id="search-bar">
+
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <!-- Profile Dropdown (opens the modal forms) -->
+            <div class="profile-dropdown">
+                <a href="#loginModal"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="maindiv">
+    <div class="Container">
+        <div class="Container1">
+            <div class="Container2">
+                <div class="Card1">
+                    <img src="./Assests/jbl660nc-1.png" alt="jbl">
+                    <div class="Card-content">
+                        <h2>jbl live 600nc wireless over-ear</br> NC Headphones</h2>
+                        <div class="pricess">
+                            <span class="price">₹9,999</span>
+                            <span class="old-price">₹14,999</span>
+                        </div>
+                        <div class="button1">
+                            <div class="counter">
+                                <button class="btn1">+</button>
+                                <span class="number">1</span>
+                                <button class="btn2">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trash">
+                        <li class="trash"><i class="fa-regular fa-trash-can fa-lg"></i></li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Container2">
+                <div class="Card1">
+                    <img src="./Assests/boat518-1.png" alt="boat Rockerz518">
+                    <div class="Card-content">
+                        <h2>boAt Rockerz 518 On-Ear Wireless</br> Headphones</h2>
+                        <div class="pricess">
+                            <span class="price">₹1,299</span>
+                            <span class="old-price">₹3,990</span>
+                        </div>
+                        <div class="button1">
+                            <div class="counter">
+                                <button class="btn1">+</button>
+                                <span class="number">1</span>
+                                <button class="btn2">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trash">
+                        <li class="trash"><i class="fa-regular fa-trash-can fa-lg"></i></li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Container2">
+                <div class="Card1">
+                    <img src="./Assests/boat131-1.png" alt="boat 131">
+                    <div class="Card-content">
+                        <h2>boAt Airdropes 131 Wireless In-Ear Earbuds</h2>
+                        <div class="pricess">
+                            <span class="price">₹1,099</span>
+                            <span class="old-price">₹2,999</span>
+                        </div>
+
+                        <div class="button1">
+                            <div class="counter">
+                                <button class="btn1">+</button>
+                                <span class="number">1</span>
+                                <button class="btn2">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trash">
+                        <li class="trash"><i class="fa-regular fa-trash-can fa-lg"></i></li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Container2">
+                <div class="Card1">
+                    <img src="./Assests/boat110-1.png" alt="boat 110">
+                    <div class="Card-content">
+                        <h2>boAt BassHeads 110 In-Ear Wired Earphones</h2>
+                        <div class="pricess">
+                            <span class="price">₹499</span>
+                            <span class="old-price">₹999</span>
+                        </div>
+
+                        <div class="button1">
+                            <div class="counter">
+                                <button class="btn1">+</button>
+                                <span class="number">1</span>
+                                <button class="btn2">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trash">
+                        <li class="trash"><i class="fa-regular fa-trash-can fa-lg"></i></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="Container4">
+        <h1>Oder Summary (4 items)</h1>
+        <div class="container5">
+            <h2>Original Price</h2>
+            <h3>22,978</h3>
+        </div>
+        <div class="Container6">
+            <h2>Discount</h2>
+            <h3>10,132</h3>
+        </div>
+        <div class="Container6">
+            <h2>Delivery</h2>
+            <h3>Free</h3>
+        </div>
+        <span class="line"></span>
+        <div class="container7">
+            <h1>Total</h1>
+            <h1>12,846</h1>
+        </div>
+        <button class="checkout-button">Checkout</button>
+    </div>
+    </div>
+    
+    <div class="footer-section">
+        <div class="section">
+            <h1>Tech-Shop</h1>
+            <p>Subscribe to our Email alerts to receive</br> early discount offers, and new products</br> info.</p>
+            <input type="email" placeholder="Email Address*" /></br>
+            <button class="Subscribe"> Subscribe</button>
+        </div>
+        <div class="section1">
+            <h1>Help</h1>
+            <ul>
+                <li>FAQs</li>
+                <li>Track Order</li>
+                <li>Cancel Order</li>
+                <li>Return Order</li>
+                <li>Warranty Info</li>
+            </ul>
+        </div>
+        <div class="section1">
+            <h1>Policies</h1>
+            <ul>
+                <li>Return Policy</li>
+                <li>Security</li>
+                <li>Sitemap</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+            </ul>
+        </div>
+        <div class="section1">
+            <h1>Company</h1>
+            <ul>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Service Centres</li>
+                <li>Careers</li>
+                <li>Affiliates</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p>2024 | All Rights Reserved. Built by | PAVAN KUMAR</p>
+        <div class="social-icons">
+            <a href="#" class="fab fa-facebook-f" title="Facebook"></a>
+            <a href="#" class="fab fa-twitter" title="Twitter"></a>
+            <a href="#" class="fab fa-instagram" title="Instagram"></a>
+            <a href="#" class="fab fa-linkedin-in" title="LinkedIn"></a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
